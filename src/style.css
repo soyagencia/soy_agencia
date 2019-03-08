@@ -35,15 +35,17 @@
         margin-top: 5%; 
     } 
 
-    .card { 
-        /* margin-top: 15%;
-        width: 10em;
-        height: 5em; */
-        padding: 6%; 
+    .card {
         margin: auto;
         margin-bottom: 5%;
         background-color: #E9FF6F;
     } 
+
+    .card-title {
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 3%;
+    }
     
     
     .par {
