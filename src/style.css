@@ -2,6 +2,7 @@
     margin: auto;
     margin-bottom: 5%;
     background-color: #E3FF03;
+    border: 0;
 }
 
 .container {
@@ -20,11 +21,58 @@
     display: flex;
 }
 
-.logo {
+/* .logo {
+    align-content: center;
     width:50vw;
     height:50vh;
     display:block;
+} */
+
+.logo-cont {
+    /* display: flex;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    display:block; */
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+} 
+
+.item {
+    flex: 1;
 }
+
+.elementos-logo {
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .elementos-plataforma {
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  */
+
+
 
 .float-button{
     border: 0;
@@ -33,17 +81,19 @@
     padding-right: 20px;
     border-radius: 3px;
     color: white;
-    background-color: #FF00D6;
+    background-color: #FF00D6 !important;
     position: fixed;
     right: 2%;
     bottom: 3%;
-    font-family: 'Montserrat', sans-serif;
     animation-name: btn;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     z-index: 1;
 }
 
+.font {
+    font-family: 'Montserrat', sans-serif;
+}
 /* @keyframes btn {
     from {background-color: #FF00D6;}
     to {background-color: #8DFF0E;}
@@ -60,10 +110,10 @@
     } 
 
     .card {
-        font-family: 'Montserrat', sans-serif;
         margin: auto;
         margin-bottom: 5%;
         background-color: #E3FF03;
+        border: 0;
     } 
 
     .card-title {
@@ -71,18 +121,16 @@
         text-align: center;
         margin: 3%;
     }
-    
-    
-    .par {
-        background-color: #FF70A6;
-        color: white;
-    } 
 
+    .font {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
     .plataforma {
+        font-size: 1.8rem;
         height: 10vh;
         text-align: center;
         margin-top: 18%;
-        font-family: 'Montserrat', sans-serif;
         font-weight: bolder;
     }
     .logo {
@@ -90,6 +138,8 @@
         height:80vh;
         display:block;
     }
-} 
 
-/* col-xs-12 col-sm-12 col-md-3 col-lg-3 */
+    .input {
+        border-color: #EAEAEA;
+    }
+} 
