@@ -1,0 +1,66 @@
+.card {
+    margin: auto;
+    margin-bottom: 5%;
+    background-color: #E9FF6F;
+}
+
+.container {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.par {
+    background-color: #FF70A6;
+    color: white;
+}
+
+.row {
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    width:50vw;
+    height:50vh;
+    display:block;
+}
+
+
+@media only screen and (min-device-width:320px) and (max-device-width:490px){
+    .container { 
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5%; 
+    } 
+
+    .card { 
+        /* margin-top: 15%;
+        width: 10em;
+        height: 5em; */
+        padding: 6%; 
+        margin: auto;
+        margin-bottom: 5%;
+        background-color: #E9FF6F;
+    } 
+    
+    
+    .par {
+        background-color: #FF70A6;
+        color: white;
+    } 
+
+    .plataforma {
+        height: 10vh;
+        text-align: center;
+        margin-top: 18%;
+    }
+    .logo {
+        width:100vw;
+        height:80vh;
+        display:block;
+    }
+} 
+
+/* col-xs-12 col-sm-12 col-md-3 col-lg-3 */
