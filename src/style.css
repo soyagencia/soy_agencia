@@ -1,41 +1,38 @@
 .card {
+    display: flex;
     margin: auto;
     margin-bottom: 5%;
-    background-color: #E3FF03;
+    background-color: #FFC300;
+    color: white;
     border: 0;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    color: white !important;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .container {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 5%;
-}
-
-.par {
-    background-color: #FF70A6;
-    color: white;
-}
+} 
 
 .row {
     margin: auto;
     display: flex;
 }
 
-/* .logo {
-    align-content: center;
-    width:50vw;
-    height:50vh;
-    display:block;
-} */
-
 .logo-cont {
-    /* display: flex;
-    align-content: center;
-    margin: 0;
-    padding: 0;
-    display:block; */
     width:100vw;
-    height:100vh;
+    height:100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,33 +43,6 @@
 .item {
     flex: 1;
 }
-
-.elementos-logo {
-    height: 50vh;
-    width: 100vw;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* .elementos-plataforma {
-    height: 50vh;
-    width: 50vw;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}  */
-
-
 
 .float-button{
     border: 0;
@@ -85,61 +55,90 @@
     position: fixed;
     right: 2%;
     bottom: 3%;
-    animation-name: btn;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
     z-index: 1;
 }
 
 .font {
     font-family: 'Montserrat', sans-serif;
 }
-/* @keyframes btn {
-    from {background-color: #FF00D6;}
-    to {background-color: #8DFF0E;}
-} */
 
-
+.plataforma {
+    font-size: 1.8rem;
+    height: 10vh;
+    text-align: center;
+    margin-top: 0;
+    font-weight: bolder;
+}
 
 @media only screen and (min-device-width:320px) and (max-device-width:490px){
-    .container { 
+    /* .container { 
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         margin-top: 5%; 
-    } 
+    }  */
 
-    .card {
+    /* .card {
         margin: auto;
         margin-bottom: 5%;
-        background-color: #E3FF03;
+        background-color: #DDF902;
         border: 0;
-    } 
-
+    }  */
+/* 
     .card-title {
         font-size: 1.3rem;
         text-align: center;
         margin: 3%;
-    }
+    } */
 
-    .font {
+    /* .font {
         font-family: 'Montserrat', sans-serif;
-    }
+    } */
     
-    .plataforma {
+    /* .plataforma {
         font-size: 1.8rem;
         height: 10vh;
         text-align: center;
         margin-top: 18%;
         font-weight: bolder;
-    }
-    .logo {
+    } */
+    /* .logo {
         width:100vw;
         height:80vh;
         display:block;
-    }
+    } */
 
-    .input {
+    /* .logo-cont { */
+        /* display: flex;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+        display:block; */
+
+        /* width:100vw;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1em;  */
+    
+    
+
+    /* .elementos-plataforma {
+        height: 50vh;
+        width: 50vw;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  */
+
+    /* .input {
         border-color: #EAEAEA;
-    }
+    } */
 } 
+
