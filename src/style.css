@@ -1,19 +1,19 @@
-.card {
+/* Cards botones*/
+.card-button {
     display: flex;
     margin: auto;
     margin-bottom: 5%;
     background-color: #FF26D0;
-    color: white;
     border: 0;
 }
 
-.card-body {
+.card-button-body {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card-title {
+.card-button-title {
     color: white !important;
     text-align: center;
     font-size: 1.1rem;
@@ -40,6 +40,7 @@
     display: flex;
 }
 
+/* Logotipo y mensaje */
 .logo-cont {
     width:100vw;
     height:100vh; 
@@ -54,6 +55,15 @@
     flex: 1;
 }
 
+.plataforma {
+    font-size: 1.8rem;
+    height: 10vh;
+    text-align: center;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+/* Botón flotante */
 .float-button{
     border: 0;
     padding: 10px;
@@ -68,24 +78,39 @@
     z-index: 1;
 }
 
+/* Fuente */
 .font {
     font-family: 'Montserrat', sans-serif;
 }
 
-.plataforma {
-    font-size: 1.8rem;
-    height: 10vh;
-    text-align: center;
-    margin-top: 0;
-    font-weight: bolder;
-}
 
 .bolder {
     font-weight: bolder;
 }
 
+/* Espacio entre secciones juntas*/
 .secciones {
     margin-top: 5%;
+}
+
+/* Cards de Servicios*/
+.card-service {
+    display: flex;
+    margin: auto;
+    margin-bottom: 5%;
+    border-color: black;
+}
+
+.card-title-service {
+    color: black;
+    text-align: center;
+    /* font-size: 1.1rem; */
+    margin: 0;
+}
+
+.btn-service {
+    background-color: #FF26D0;
+    border: 0;
 }
 
 
