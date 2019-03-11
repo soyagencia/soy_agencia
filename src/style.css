@@ -2,7 +2,7 @@
     display: flex;
     margin: auto;
     margin-bottom: 5%;
-    background-color: #FFC300;
+    background-color: #FF26D0;
     color: white;
     border: 0;
 }
@@ -20,11 +20,20 @@
     margin: 0;
 }
 
+.all-cards {
+    width:50vw;
+    height:50vh;
+}
+
 .container {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 5%;
 } 
+
+.remove-link-default{
+    text-decoration: none;
+}
 
 .row {
     margin: auto;
@@ -52,7 +61,7 @@
     padding-right: 20px;
     border-radius: 3px;
     color: white;
-    background-color: #FF00D6 !important;
+    background-color: #FFC300 !important; 
     position: fixed;
     right: 2%;
     bottom: 3%;
@@ -70,6 +79,15 @@
     margin-top: 0;
     font-weight: bolder;
 }
+
+.bolder {
+    font-weight: bolder;
+}
+
+.secciones {
+    margin-top: 5%;
+}
+
 
 @media only screen and (min-device-width:320px) and (max-device-width:490px){
     /* .container { 
