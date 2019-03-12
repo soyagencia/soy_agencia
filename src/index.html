@@ -49,7 +49,7 @@
       </div>
       <div class="card card-button font" style="width: 11rem; height: 5.5rem;">
         <div class="card-body card-button-body">
-          <a href="#"><h5 class="card-title card-button-title">Nuestro Servicio</h5></a>
+          <a href="#nuestro-servicio"><h5 class="card-title card-button-title">Nuestro Servicio</h5></a>
         </div>
       </div>
       <div class="card card-button font" style="width: 11rem; height: 5.5rem;">
@@ -66,8 +66,8 @@
   </section>
   <!---->
   <!-- ¿Por qué Soy Agencia? -->
-  <section class="container elige-soy-agencia" id="elige-soy-agencia">
-    <h1 class="font bolder">Elige Soy Agencia</h1>
+  <section class="container" id="elige-soy-agencia">
+    <h1 class="font bolder header">Elige Soy Agencia</h1>
     <section class="secciones">
       <h3 class="font">¿Qué hacemos?</h3>
       <p class="font">Damos una solución completa a todas tus necesidades de Marketing Digital y Desarrollo web, todo a un precio único y mensual.</p>
@@ -85,65 +85,96 @@
   </section>
   <!---->
   <!-- Nuestro Servicio -->
-    <section class="container font">
-      <h1 class="bolder">Nuestro Servicio</h1>
-        <div class="row secciones">
-          <div class="col-sm-4">
-            <div class="card card-service">
-              <div class="card-body card-body-service">
-                <h4 class="card-title card-title-service bolder">Desarrollo Web</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-service">Leer más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card card-service">
-              <div class="card-body card-body-service">
-                <h4 class="card-title card-title-service bolder">Diseño Gráfico</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-service">Leer más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card card-service">
-              <div class="card-body card-body-service">
-                <h4 class="card-title card-title-service bolder">Redes Sociales</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-service">Leer más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card card-service">
-              <div class="card-body card-body-service">
-                <h4 class="card-title card-title-service bolder">Diseño y ejecución de campañas (AdWords, Facebook, LinkedIn)*</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-service">Leer más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card card-service">
-              <div class="card-body card-body-service">
-                <h4 class="card-title card-title-service bolder">Automatización de tu email marketing a tu base de datos y prospectos**</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-service">Leer más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card card-service">
-              <div class="card-body card-body-service">
-                <h4 class="card-title card-title-service bolder">Videos animados ilimitados para tu empresa**</h4>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary btn-service">Leer más</a>
-              </div>
+  <section class="container font" id="nuestro-servicio">
+    <h1 class="bolder">Nuestro Servicio</h1>
+      <div class="row secciones">
+        <div class="col-sm-4">
+          <div class="card card-service">
+            <div class="card-body card-body-service">
+              <h4 class="card-title card-title-service bolder">Desarrollo Web</h4>
+              <p class="card-text">Creamos la mejor versión tu página web en el menor tiempo posible.</p>
+              <button type="button" class="btn btn-primary btn-service" data-toggle="modal" data-target="#exampleModalLong">Abrir</button>
+              <!--Modal-->
+              <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5> -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Creamos la mejor versión tu página web en el menor tiempo posible con
+                          las siguientes especificaciones:</p>
+                          <li>Desarrollo en código HTML & CSS o plataforma.</li>
+                          <li>Incluye diseño de UX (UserExperience) para la mejor navegación.</li> 
+                          <li>Puede incluir Blog.</li>
+                          <li>Puede incluir Mapa de Google.</li>   
+                          <li>Puede incluir caja de búsqueda de información.</li>      
+                          <li>Incluye integraciones con otras plataformas siempre y cuando haya API’s disponibles.</li> 
+                          <li>Incluye hosting ilimitado.</li>              
+                          <li>Incluye integración con sistemas de pago como Paypal, MercadoPago o Conekta (la cuenta la crea el cliente).</li>  
+                          <li>Fotografías(usamos plataformas como Unsplash).</li>
+                          <li>Nuestros sitios los hacemos 100% compatibles con dispositivos móviles.</li>            
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!---->
             </div>
           </div>
         </div>
-    </section>
+        <div class="col-sm-4">
+          <div class="card card-service">
+            <div class="card-body card-body-service">
+              <h4 class="card-title card-title-service bolder">Diseño Gráfico</h4>
+              <p class="card-text">Te ayudamos a diseñar todo lo que tu empresa necesite.</p>
+              <a href="#" class="btn btn-primary btn-service">Abrir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card card-service">
+            <div class="card-body card-body-service">
+              <h4 class="card-title card-title-service bolder">Manejo de Redes Sociales</h4>
+              <p class="card-text">Queremos que puedas enfocarte en tus clientes, es por esto que nosotros te ayudamos a gestionar tus redes sociales.</p>
+              <a href="#" class="btn btn-primary btn-service">Abrir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card card-service">
+            <div class="card-body card-body-service">
+              <h4 class="card-title card-title-service bolder">Diseño y Ejecución de campañas</h4>
+              <p class="card-text">Te ayudamos a crear campañas en base a tus objetivos, ya sea generar más venta, obtener más prospectos o dar a conocer tu marca.</p>
+              <a href="#" class="btn btn-primary btn-service">Abrir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card card-service">
+            <div class="card-body card-body-service">
+              <h4 class="card-title card-title-service bolder">Automatización de tu e-mail Marketing</h4>
+              <p class="card-text">El email sigue siendo la herramienta más poderosa dentro del arsenal de estrategias de marketing digital, y probablemente ya cuentes con una base de datos de clientes, ¿por qué no maximizarla?</p>
+              <a href="#" class="btn btn-primary btn-service">Abrir</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card card-service">
+            <div class="card-body card-body-service">
+              <h4 class="card-title card-title-service bolder">Creación de Videos Animados</h4>
+              <p class="card-text">Hoy en día, el formato de video es el medio más consumido en internet. Y esta tendencia sigue creciendo.</p>
+              <a href="#" class="btn btn-primary btn-service">Abrir</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

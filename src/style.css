@@ -73,7 +73,7 @@
     color: white;
     background-color: #FFC300 !important; 
     position: fixed;
-    right: 2%;
+    left: 2%;
     bottom: 3%;
     z-index: 1;
 }
@@ -86,6 +86,11 @@
 
 .bolder {
     font-weight: bolder;
+}
+
+/* Encabezados */
+.header {
+    margin-top: 10%;
 }
 
 /* Espacio entre secciones juntas*/
@@ -109,80 +114,10 @@
 }
 
 .btn-service {
-    background-color: #FF26D0;
+    background-color: #FF26D0 !important;
     border: 0;
 }
 
-
-@media only screen and (min-device-width:320px) and (max-device-width:490px){
-    /* .container { 
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 5%; 
-    }  */
-
-    /* .card {
-        margin: auto;
-        margin-bottom: 5%;
-        background-color: #DDF902;
-        border: 0;
-    }  */
 /* 
-    .card-title {
-        font-size: 1.3rem;
-        text-align: center;
-        margin: 3%;
-    } */
-
-    /* .font {
-        font-family: 'Montserrat', sans-serif;
-    } */
-    
-    /* .plataforma {
-        font-size: 1.8rem;
-        height: 10vh;
-        text-align: center;
-        margin-top: 18%;
-        font-weight: bolder;
-    } */
-    /* .logo {
-        width:100vw;
-        height:80vh;
-        display:block;
-    } */
-
-    /* .logo-cont { */
-        /* display: flex;
-        align-content: center;
-        margin: 0;
-        padding: 0;
-        display:block; */
-
-        /* width:100vw;
-        height:100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 1em;  */
-    
-    
-
-    /* .elementos-plataforma {
-        height: 50vh;
-        width: 50vw;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        align-content: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }  */
-
-    /* .input {
-        border-color: #EAEAEA;
-    } */
-} 
+@media only screen and (min-device-width:320px) and (max-device-width:490px){} */
 
