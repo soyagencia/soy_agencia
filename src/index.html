@@ -54,7 +54,7 @@
       </div>
       <div class="card card-button font" style="width: 11rem; height: 5.5rem;">
         <div class="card-body card-button-body">
-          <a href="#"><h5 class="card-title card-button-title">Clientes</h5></a>
+          <a href="#clientes"><h5 class="card-title card-button-title">Clientes</h5></a>
         </div>
       </div>
       <div class="card card-button font" style="width: 11rem; height: 5.5rem;">
@@ -67,8 +67,8 @@
   <!---->
   <!-- ¿Por qué Soy Agencia? -->
   <section class="container" id="elige-soy-agencia">
-    <h1 class="font bolder header">Elige Soy Agencia</h1>
-    <section class="secciones">
+    <h1 class="font bolder header secciones">Elige Soy Agencia</h1>
+    <section class="secciones-agencia">
       <h3 class="font">¿Qué hacemos?</h3>
       <p class="font">Damos una solución completa a todas tus necesidades de Marketing Digital y Desarrollo web, todo a un precio único y mensual.</p>
       <p class="font">Imagínate Netflix, por un precio mensual, ¡consume todo lo que quieras!</p>
@@ -76,7 +76,7 @@
       <p class="font">Con nuestra plataforma podrás pedir todo lo que necesites, tendrás un tiempo exacto de entrega de tu requerimiento y verás quién es la persona que lo está desarrollando.</p>
       <p class="font">Buscamos que tengas el mejor Retorno Sobre la Inversión, y esto lo obtienes en ahorro y/o incremento de tus prospectos.</p>
     </section>
-    <section class="secciones">
+    <section class="secciones-agencia">
       <h3 class="font">Nuestra propuesta</h3>
       <p class="font">Queremos ayudarte a que tengas más tiempo libre y te enfoques en tus productos o servicios y en tus clientes.</p>
       <p class="font">Con nuestro servicio completo, estás delegando todo lo relacionado a Marketing, Diseño y Desarrollo a nosotros, que estamos para ayudarte.</p>
@@ -86,8 +86,8 @@
   <!---->
   <!-- Nuestro Servicio -->
   <section class="container font" id="nuestro-servicio">
-    <h1 class="bolder">Nuestro Servicio</h1>
-      <div class="row secciones">
+    <h1 class="font bolder secciones">Nuestro Servicio</h1>
+      <div class="row">
 
         <div class="col-sm-4">
           <div class="card card-service">
@@ -249,7 +249,7 @@
           <div class="card card-service">
             <div class="card-body card-body-service">
               <h4 class="card-title card-title-service bolder">Automatización de tu e-mail Marketing</h4>
-              <p class="card-text">El e-mail sigue siendo la herramienta más poderosa dentro del arsenal de estrategias de marketing digital, y probablemente ya cuentes con una base de datos de clientes, ¿por qué no maximizarla?</p>
+              <p class="card-text readmore">El e-mail sigue siendo la herramienta más poderosa dentro del arsenal de estrategias de marketing digital, y probablemente ya cuentes con una base de datos de clientes, ¿por qué no maximizarla?</p>
               <button type="button" class="btn btn-primary btn-service" data-toggle="modal" data-target="#exampleModalLong5">Abrir</button>
               <!--Modal-->
               <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -320,8 +320,27 @@
 
       </div>
   </section>
+  <!---->
+  <!--Video-->
+  <!--Clientes-->
+  <section class="container clientes" id="clientes">
+    <h1 class="font bolder secciones">Algunos de nuestros clientes</h1>
+    <article class="row">
+      <img class="clientes-item" src="../assets/axeleravector.svg">
+      <img class="clientes-item" src="../assets/consoltumvector.svg">
+      <img class="clientes-item" src="../assets/Dot Fit vector.svg">
+      <img class="clientes-item" src="../assets/maltaapvector.svg">
+      <img class="clientes-item" src="../assets/IDEXXvector.svg">
+      <img class="clientes-item" src="../assets/seedspacevector (1).svg">
+      <img class="clientes-item" src="../assets/WCvector.svg"> 
+    </article>
+  </section>
+  <!---->
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="/node_modules/readmore-js/readmore.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
