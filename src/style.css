@@ -94,8 +94,11 @@
 }
 
 /* Espacio entre secciones juntas*/
-.secciones {
+.secciones-agencia {
     margin-top: 5%;
+}
+.secciones {
+    margin-bottom: 5%;
 }
 
 /* Cards de Servicios*/
@@ -118,6 +121,12 @@
     border: 0;
 }
 
-/* 
-@media only screen and (min-device-width:320px) and (max-device-width:490px){} */
+/* Clientes */
+.clientes-item {
+    display: flex;
+    margin: 3%;
+    /* margin-bottom: 5%; */
+    max-width: 13rem;
+    justify-content: center;
+}
 
