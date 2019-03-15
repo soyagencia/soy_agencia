@@ -125,8 +125,22 @@
     border: 0;
 }
 
-/*Gifs*/
+/*Video*/
+.video-cont{
+    width:50vw;
+    height:100vh; 
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    /* padding: 1em; */
+}
 
+.item-video {
+    flex: 1;
+}
+
+/*Gifs*/
 .gifs {
     max-width: 15rem;
     max-height: 10rem;
@@ -170,3 +184,10 @@
     height: 10rem;
 }
 
+@media only screen and (min-device-width:320px) and (max-device-width:1068px) {
+    .item-video {
+        flex: 1;
+        width: 100% !important;
+        height: 100%  !important;
+    }
+}
