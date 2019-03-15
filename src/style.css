@@ -78,6 +78,10 @@
     z-index: 1;
 }
 
+.inputs {
+    margin: 1%;
+}
+
 /* Fuente */
 .font {
     font-family: 'Montserrat', sans-serif;
