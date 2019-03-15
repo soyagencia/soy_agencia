@@ -127,13 +127,7 @@
 
 /*Video*/
 .video-cont{
-    width:50vw;
-    height:100vh; 
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* flex-direction: column; */
-    /* padding: 1em; */
 }
 
 .item-video {
