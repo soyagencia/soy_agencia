@@ -146,6 +146,13 @@
     justify-content: center;
 }
 
+/*Testimonios*/
+.empresario {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-right: 5%;
+}
+
 /* Redes Sociales*/
 .redes {
     max-width: 7rem;
