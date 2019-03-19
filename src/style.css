@@ -221,10 +221,36 @@
     src: local('Brandon Grotesque Light Italic'), url('../fonts/brandon-grotesque-regular-cufonfonts-webfont/brandon-grotesque-light-italic-58a8a4ccb88be.woff') format('woff');
             }
 
+/* Video */
 @media only screen and (min-device-width:320px) and (max-device-width:1068px) {
     .item-video {
         flex: 1;
         width: 100% !important;
         height: 100%  !important;
+    }
+}
+
+/* Clientes */
+@media only screen and (min-device-width:320px) and (max-device-width:1024px) {
+    .clientes-item {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+/* Texto "Elige soy Agencia" */
+@media only screen and (max-device-width:375px) {
+    #elige-soy-agencia {
+        margin-top: 19rem;
+    }
+}
+
+/* Redes Sociales */
+@media only screen and (max-device-width:360px) {
+    .redes {
+        max-width: 5rem;
+        max-height: 5rem;
+        margin: auto;
     }
 }
