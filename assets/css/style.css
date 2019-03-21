@@ -1,3 +1,37 @@
+.container {
+    flex-wrap: wrap;
+    width: 100%; 
+    margin-top: 5%;
+} 
+
+.row {
+    /* margin: auto; */
+    display: flex;
+}
+
+/* Logotipo y mensaje */
+.logo-cont {
+    width:100vw;
+    height:100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+} 
+
+.item {
+    flex: 1;
+}
+
+.plataforma {
+    font-size: 1.8rem;
+    height: 10vh;
+    text-align: center;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
 /* Cards botones*/
 .card-button {
     display: flex;
@@ -26,12 +60,6 @@
     background-color: #1D1D1D;
 }
 
-.container {
-    flex-wrap: wrap;
-    width: 100%; 
-    margin-top: 5%;
-}  
-
 .container-fluid {
     display: flex;
     flex-wrap: wrap;
@@ -41,37 +69,9 @@
     align-items: center;  */
 }
 
-.row {
-    /* margin: auto; */
-    display: flex;
-}
-
 .row-buttons {
     margin: auto;
     display: flex;
-}
-
-/* Logotipo y mensaje */
-.logo-cont {
-    width:100vw;
-    height:100vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1em;
-} 
-
-.item {
-    flex: 1;
-}
-
-.plataforma {
-    font-size: 1.8rem;
-    height: 10vh;
-    text-align: center;
-    margin-top: 0;
-    font-weight: bolder;
 }
 
 /* Botón flotante */
@@ -122,25 +122,31 @@
     font-size: 1.2rem;
 }
 
-.color-text {
-    color: aliceblue;
-    font-weight: bolder;
-    font-size: 2rem;
-}
-
-h3 {
-    display: inline;
-}
-
 /* Cards Elige Soy Agencia */
 .card-agencia {
-    background-color: #E522BB;
     margin: auto;
+}
+
+.card-header{
+    background-color: #7F1368;
+    text-align: center;
+    color: #ffffff;
 }
 
 .font-us {
     font-family: 'Brandon Grotesque Light';
     font-weight: bolder;
+}
+
+.text-card-elige{
+    color: black;
+    font-weight: bold;
+}
+
+.color-text {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
 /* Encabezados */
@@ -212,10 +218,6 @@ h3 {
     max-width: 15rem;
     max-height: 10rem;
     margin: 2% auto;
-}
-
-.nombres {
-    text-align: center;
 }
 
 /* Clientes */
