@@ -251,6 +251,7 @@
     border-radius: 50%;
 }
 .testimonios {
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -376,8 +377,18 @@
 
 /* Footer */
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FF26D0;
     height: 10rem;
+    color: white;
+}
+
+.privacidad {
+    color: white !important;
+    text-decoration: none;
+    outline: none;
 }
 
 /*fuente */
