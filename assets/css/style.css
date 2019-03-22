@@ -124,7 +124,10 @@
 
 /* Cards Elige Soy Agencia */
 .card-agencia {
-    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
     border-color: dimgray;
 }
 
