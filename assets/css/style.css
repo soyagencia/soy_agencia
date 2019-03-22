@@ -1,3 +1,37 @@
+.container {
+    flex-wrap: wrap;
+    width: 100%; 
+    margin-top: 5%;
+} 
+
+.row {
+    /* margin: auto; */
+    display: flex;
+}
+
+/* Logotipo y mensaje */
+.logo-cont {
+    width:100vw;
+    height:100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+} 
+
+.item {
+    flex: 1;
+}
+
+.plataforma {
+    font-size: 1.8rem;
+    height: 10vh;
+    text-align: center;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
 /* Cards botones*/
 .card-button {
     display: flex;
@@ -24,54 +58,20 @@
     width:50vw;
     height:50vh;
     background-color: #1D1D1D;
+    justify-content: space-between;
 }
-
-.container {
-    flex-wrap: wrap;
-    width: 100%; 
-    margin-top: 5%;
-}  
 
 .container-fluid {
     display: flex;
     flex-wrap: wrap;
     width: 100%; 
     /* height: 100%; */
-    /* justify-content: center;
-    align-items: center;  */
-}
-
-.row {
-    /* margin: auto; */
-    display: flex;
+    /* align-items: center;   */
 }
 
 .row-buttons {
     margin: auto;
-    display: flex;
-}
-
-/* Logotipo y mensaje */
-.logo-cont {
-    width:100vw;
-    height:100vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1em;
-} 
-
-.item {
-    flex: 1;
-}
-
-.plataforma {
-    font-size: 1.8rem;
-    height: 10vh;
-    text-align: center;
-    margin-top: 0;
-    font-weight: bolder;
+    /* display: flex; */
 }
 
 /* Botón flotante */
@@ -109,6 +109,7 @@
 
 .text {
     font-size: 1.2rem;
+    color: aliceblue;
 }
 
 .text-testi {
@@ -121,40 +122,44 @@
     font-size: 1.2rem;
 }
 
+/* Cards Elige Soy Agencia */
+.card-agencia {
+    margin: auto;
+    border-color: dimgray;
+}
+
+.card-header{
+    background-color: #7F1368;
+    text-align: center;
+    color: #ffffff;
+}
+
+.font-us {
+    font-family: 'Brandon Grotesque Light';
+    font-weight: bolder;
+}
+
+.text-card-elige{
+    color: black;
+    font-weight: bold;
+}
+
 .color-text {
-    color: #E522BB;
+    color: #ffffff;
     font-weight: bolder;
     font-size: 2rem;
 }
 
-h3 {
-    display: inline;
-}
-
-/* .marker {
-    border-radius: 1em 0 1em 0;
-    background-image: 
-    linear-gradient(-100deg, 
-    rgba(127,19,104,0.15),
-    rgba(229,34,187,0.8) 100%, 
-    rgba(255,38,208,0.25)
-    ); 
-    background-color: #FF26D0;
-    color: aliceblue;
-    font-weight: bolder;
-} */
-
 /* Encabezados */
 .header {
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 6%;
+    text-align: center;
 }
 
 /* Espacio entre secciones juntas*/
 .secciones-agencia {
     margin-top: 5%;
-}
-.secciones {
-    margin-bottom: 5%;
 }
 
 /* Cards de Servicios*/
@@ -162,10 +167,23 @@ h3 {
     display: flex;
     margin: auto;
     margin-bottom: 5%;
-    border-color: black;
+    border-color: dimgray;
+    min-width: 21rem;
+    min-height: 17rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.card-body-service {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-title-service {
+    font-family: 'Brandon Grotesque Light';
+    font-weight: bolder;
     color: black;
     text-align: center;
     /* font-size: 1.1rem; */
@@ -176,11 +194,23 @@ h3 {
 .btn-service {
     background-color: #FF26D0 !important;
     border: 0;
+    padding: 7px 17px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:50%;
+}
+
+.icons-services {
+    max-width: 100px;
 }
 
 /*Video*/
 .video-cont{
     display: flex;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .item-video {
@@ -188,14 +218,15 @@ h3 {
 }
 
 /*Gifs*/
+.cont-family{
+    width: 100vw;
+    height: 60vh;
+}
+
 .gifs {
     max-width: 15rem;
     max-height: 10rem;
     margin: 2% auto;
-}
-
-.nombres {
-    text-align: center;
 }
 
 /* Clientes */
@@ -209,11 +240,127 @@ h3 {
 }
 
 /*Testimonios*/
-.empresario {
-    font-family: 'Brandon Grotesque Light Italic';
+.box {
+    margin: 3%;
+    max-width: 30rem;
+    min-height: 17rem;
+}
+.empresarios {
+    max-width: 100px;
+    max-height: 85px;
+    border-radius: 50%;
+}
+.testimonios {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+    font-family: 'Brandon Grotesque Light';
+}
+
+.cont-testimonios {
+    width: 1200px;
+    margin: 5% auto 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.cont-testimonios .box {
+    position: relative;
+    padding: 45px 40px 40px;
+    transition: 0.5s;
+    text-align: center;
+    background: #fff;
+}
+
+.cont-testimonios .box:hover {
+    background: #E522BB;
+}
+
+.p-testi {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.emp-names{
+    margin: 20px 0 0;
+    padding: 0;
+    transition: 0.5s;
+    font-size: 18px;
     font-weight: bolder;
-    text-align: right;
-    margin-right: 5%;
+    color: #7F1368;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.job {
+    font-weight: 600;
+    font-size: 14px;
+    color: #c5c5c5;
+    transition: 0.5s;
+}
+
+.cont-testimonios .box:hover .p-testi,
+.cont-testimonios .box:hover .emp-names,
+.cont-testimonios .box:hover .job {
+    color: #fff;
+}
+
+.cont-testimonios .box .img-box {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.cont-testimonios .box:after {
+    content: "";
+    position: absolute;
+    bottom: 35px;
+    left: 40px; 
+    width: 50px;
+    height: 50px;
+    background: url(../img/quotes.png);
+    background-size: cover;
+    opacity: 0.05;
+    pointer-events: none;
+    transition: 0.5s;
+    transform: rotate(180deg)translateY(0px);
+}
+
+.cont-testimonios .box:hover:after {
+    transform: rotate(180deg)translateY(-60px);
+    opacity: 1;
+}
+
+.cont-testimonios .box::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: url(../img/quotes.png);
+    background-size: cover;
+    opacity: 0.05;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.cont-testimonios .box:hover:before {
+    transform: translateY(-25px);
+    opacity: 1;
 }
 
 /* Redes Sociales*/
