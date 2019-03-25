@@ -50,7 +50,7 @@
 .card-button-title {
     color: white !important;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.75rem;
     margin: 0;
 }
 
@@ -58,7 +58,7 @@
     width:50vw;
     height:50vh;
     background-color: #1D1D1D;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .container-fluid {
@@ -207,6 +207,16 @@
     max-width: 100px;
 }
 
+.img-des-dis {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.tit-des-dis {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 /*Video*/
 .video-cont{
     display: flex;
@@ -220,16 +230,18 @@
     flex: 1;
 }
 
-/*Gifs*/
-.cont-family{
+/*La Familia Soy Agencia*/
+.cont-family {
     width: 100vw;
     height: 60vh;
-}
+} 
 
 .gifs {
     max-width: 15rem;
     max-height: 10rem;
     margin: 2% auto;
+    border-radius: 80%;
+    border-color: #7F1368 !important;
 }
 
 /* Clientes */
@@ -254,7 +266,8 @@
     border-radius: 50%;
 }
 .testimonios {
-    width: 100%;
+    /* width: 100%; */
+    width: auto;
     margin: 0;
     padding: 0;
     display: flex;

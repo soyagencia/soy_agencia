@@ -9,12 +9,33 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../assets/css/style.css">
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '567088580482356');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=567088580482356&ev=PageView&noscript=1"/></noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134998859-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-134998859-1');
+      </script>
   </head>
   <body>
     <!-- Logo -->
     <section class="container logo-cont">
-      <img class="item logo" src="../../assets/img/Recurso 18.svg" data-aos="fade-right" data-aos-duration="1000">
-      <h4 class="plataforma font item" data-aos="fade-left">Plataforma de Marketing Digital</h4>
+      <img class="item logo" src="../../assets/img/Recurso 18.svg" data-aos="flip-up" data-aos-duration="2000">
+      <h4 class="plataforma font item" data-aos="flip-down" data-aos-duration="4000">Plataforma de Marketing Digital</h4>
     </section> 
     <!---->   
       <button type="button" class="btn btn-primary float-button font" data-toggle="modal" data-target="#exampleModalCenter">Contacto</button>   
@@ -272,16 +293,17 @@
     </section>
     <!---->
     <!-- Nuestro Servicio -->
-    <section class="container font" id="nuestro-servicio">
-      <h1 class="font bolder secciones" data-aos="fade-right" data-aos-duration="1000">Nuestro Servicio</h1>
+    <section class="container font" id="nuestro-servicio" data-aos="fade-right" data-aos-duration="1000">
+      <h1 class="font bolder header">Nuestro Servicio</h1>
         <div class="row">
+
           <div class="col-sm-4" data-aos="fade-right" data-aos-duration="200">
             <div class="card card-service">
               <div class="card-body card-body-service">
                 <!-- <h4 class="card-title card-title-service bolder">Desarrollo Web</h4> -->
                 <!-- <p class="card-text text">Creamos la mejor versión de tu página web en el menor tiempo posible.</p> -->
-                <img  class="icons-services" src="../../assets/img/012-web-programming.svg"><br>
-                <h4 class="card-title card-title-service bolder">Desarrollo Web</h4>
+                <img  class="icons-services img-des-dis" src="../../assets/img/012-web-programming.svg"><br>
+                <h4 class="card-title card-title-service bolder tit-des-dis">Desarrollo Web</h4>
                 <button type="button" class="btn btn-primary btn-service" data-toggle="modal" data-target="#exampleModalLong">Abrir</button>
               </div>
             </div>
@@ -292,12 +314,12 @@
               <div class="card-body card-body-service">
                 <!-- <h4 class="card-title card-title-service bolder">Diseño Gráfico</h4> -->
                 <!-- <p class="card-text text">Te ayudamos a diseñar todo lo que tu empresa necesite.</p> -->
-                <img class="icons-services" src="../../assets/img/019-computer-graphic.svg">
-                <h4 class="card-title card-title-service bolder">Diseño Gráfico</h4>
+                <img class="icons-services img-des-dis" src="../../assets/img/019-computer-graphic.svg">
+                <h4 class="card-title card-title-service bolder tit-des-dis">Diseño Gráfico</h4>
                 <button type="button" class="btn btn-primary btn-service" data-toggle="modal" data-target="#exampleModalLong2">Abrir</button>
             </div>
           </div>
-          </div>
+        </div>
 
           <div class="col-sm-4" data-aos="fade-right" data-aos-duration="600">
             <div class="card card-service">
@@ -357,18 +379,16 @@
         </video>
     </section>
     <!--Equipo-->
-    <section class="container cont-family" id="familia">
-      <h1 class="font bolder header">La Familia Soy Agencia</h1>
-      <article class="row">
-        <img class="gifs" src="../../assets/img/Oreo.gif">
-        <img class="gifs" src="../../assets/img/Alfredo.gif">
-        <img class="gifs" src="../../assets/img/Daniela.gif">
-        <img class="gifs" src="../../assets/img/Majo.gif">
-        <!-- <img class="gifs" src="../../assets/img/Hernny.gif">
-        <img class="gifs" src="../../assets/img/Yunuen.gif"> -->
-        <img class="gifs" src="../../assets/img/Eric.gif">
-      </article>
-    </section>
+      <section class="container cont-family" id="familia">
+        <h1 class="font bolder header">La Familia Soy Agencia</h1>
+        <article class="row">
+          <img class="gifs" src="../../assets/img/Alfredo.gif">
+          <img class="gifs" src="../../assets/img/Daniela.gif">
+          <img class="gifs" src="../../assets/img/Majo.gif">
+          <img class="gifs" src="../../assets/img/Eric.gif">
+          <img class="gifs" src="../../assets/img/Oreo.gif">
+          </article>
+      </section>
     <!---->
     <!--Clientes-->
     <section class="container clientes" id="clientes">
@@ -393,28 +413,28 @@
             <img class="empresarios" src="../../assets/img/Guilherme-Dos-Reis.jpg">
           </div> 
           <p class="p-testi">Nos ayudaron a incrementar nuestro posicionamiento en México como Líderes de Pruebas químicas en el ramo Veterinario e incrementar nuestras ventas en un 40% en redes sociales.</p> 
-          <h4 class="emp-names">Guilherme Dos Reis<br><span class="job">Gerente Marketing IDEXX animal companion</span></h4>
+          <h4 class="emp-names">Guilherme Dos Reis<br><span class="job">Gerente de Marketing IDEXX animal companion</span></h4>
         </div>
         <div class="box">
           <div class="img-box">
             <img class="empresarios" src="../../assets/img/Solomon-Amoako.jpg">
           </div> 
           <p class="p-testi">Al ser una empresa global, fue muy bueno trabajar con Soy Agencia por su equipo bilingüe y muchas conexiones en latinoamerica. Nos ayudaron a generar conversiones y aumentar nuestra venta de dominios.</p> 
-          <h4 class="emp-names">Solomon Amoako<br><span class="job">Vice President of Business Development</span></h4>
+          <h4 class="emp-names">Solomon Amoako<br><span class="job">Vice Presidente de Business Development, .Fit</span></h4>
         </div>
         <div class="box">
           <div class="img-box">
             <img class="empresarios" src="../../assets/img/César-Miguel.jpg">
           </div> 
           <p class="p-testi">Con Soy Agencia logramos segmentar nuestra audiencia y enfocarnos en nuestro top line. Como startup, trabajar con agencias tradicionales es muy difícil por que se mueven a otro ritmo, con Soy Agencia y su plataforma, todo es muy fluido, rápido y transparente.</p> 
-          <h4 class="emp-names">César Miguel<br><span class="job">CTO</span></h4>
+          <h4 class="emp-names">César Miguel<br><span class="job">CTO, Humanify</span></h4>
         </div>
         <div class="box">
           <div class="img-box">
             <img class="empresarios" src="../../assets/img/Tero-Moliis.jpg">
           </div> 
           <p class="p-testi">Creamos nuevas alianzas y mucha interacción de la audiencia. Su servicio completo nos ayuda a optimizar los recursos y no tener que preocuparnos por limitarnos o gastar de más.</p> 
-          <h4 class="emp-names">Tero Moliis<br><span class="job">Founder & CEO</span></h4>
+          <h4 class="emp-names">Tero Moliis<br><span class="job">Founder & CEO, Maltapp</span></h4>
         </div>
       </div>
     </section>
@@ -451,6 +471,7 @@
     <script>
       AOS.init();
     </script>
-    <script src="../index.js"></script>
+    <script src="readmore.js"></script>
+    <script src="index.js"></script>
   </body>	
 </html>
