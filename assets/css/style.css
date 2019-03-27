@@ -23,10 +23,10 @@
 .logo {
     width: 100vw;
     height: 100vh; 
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /* .item {
@@ -533,5 +533,16 @@ footer {
         margin: auto;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:1068px) {
+    .logo {
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
