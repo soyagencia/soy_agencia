@@ -10,19 +10,23 @@
 
 /* Logotipo y mensaje */
 .logo-cont {
-    margin-top: 5%;
-    width:100vw;
-    height:100vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1em;
+    /* margin: auto; */
+    /* width:100vw; */
+    height: auto; 
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* padding: 1em; */
 } 
 
-.item {
-    flex: 1;
+.logo {
+    width: 100%;
 }
+
+/* .item {
+    flex: 1;
+} */
 
 .plataforma {
     font-size: 1.8rem;
@@ -31,6 +35,16 @@
     margin-top: 0;
     font-weight: bolder;
 }
+
+.back-plataforma {
+    background-color: #1D1D1D;
+    color: white;
+    padding: 5px;
+}
+
+/* .back-brick {
+    background-image: url(../img/design\ \();
+} */
 
 /* Cards botones*/
 .card-button {
@@ -493,10 +507,6 @@ footer {
 @media only screen and (max-device-width:480px) {
     #elige-soy-agencia {
         margin-top: 6rem;
-    }
-
-    .footer-mobile {
-        margin: auto;
     }
 }
 
