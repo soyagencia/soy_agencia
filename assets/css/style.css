@@ -126,16 +126,17 @@
 
 /* Cards Elige Soy Agencia */
 .elige-soy-agencia {
-    background-image: url("../img/piñas.png");
+    /* background-image: url("../img/piñas.png");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background-color: #F6E4FE;
 }
 .card-agencia {
     /* margin-top: 15px; */
     margin-bottom: 5%;
     margin-right: auto;
     margin-left: auto;
-    border-color: dimgray;
+    border: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
@@ -192,21 +193,22 @@
 }
 
 .our-service {
-    padding-top: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .card-service {
     display: flex;
     margin: auto;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     margin-bottom: 5%;
-    /* border-color: dimgray; */
+    background-color: white;
     border: 0;
     min-width: 21rem;
     min-height: 17rem;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         to right top, rgba(127, 19, 104), rgba(255, 38, 208)
-    )
+    ) */
 }
 
 .card-body-service {
@@ -219,7 +221,7 @@
 .card-title-service {
     font-family: 'Brandon Grotesque Light';
     font-weight: bolder;
-    color: #f5f5ff;
+    color: #FF26D0;
     text-align: center;
     /* font-size: 1.1rem; */
     margin-bottom: 5%;
@@ -227,18 +229,20 @@
 }
 
 .btn-service {
-    background-color: #f5f5f5 !important;
-    color: #1D1D1D !important;
+    background-color: #FF26D0 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white !important;
     border: 0;
     padding: 7px 17px;
     font-size: 20px;
+    font-weight: bolder;
     border-radius: 10px;
     width:50%;
 }
 
 .icons-services {
     width: 100px;
-    fill: white;
+    fill: #FF26D0;
 }
 
 .img-des-dis {
