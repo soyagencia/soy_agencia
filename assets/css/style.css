@@ -126,15 +126,18 @@
 
 /* Cards Elige Soy Agencia */
 .elige-soy-agencia {
-    background-image: url("../img/SoyAgenciaCards.jpg");
+    background-image: url("../img/piñas.png");
     background-size: cover;
+    background-position: center;
 }
 .card-agencia {
     margin-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 5%;
     margin-right: auto;
     margin-left: auto;
     border-color: dimgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .card-body-agencia {
@@ -145,7 +148,8 @@
     color: #FF26D0;
     font-weight: 900;
     text-align: center;
-    margin-top: 6%;
+    padding-top: 5%;
+    /* margin-top: 6%; */
 }
 
 .card-header{
@@ -155,7 +159,7 @@
 }
 
 .font-us {
-    font-family: 'Brandon Grotesque Light';
+    font-family: 'Brandon Grotesque Black';
     font-weight: bolder;
 }
 
@@ -172,7 +176,7 @@
 
 /* Encabezados */
 .header {
-    margin-top: 15%;
+    /* margin-top: 15%; */
     margin-bottom: 6%;
     text-align: center;
 }
@@ -485,6 +489,13 @@ footer {
     font-style: normal;
     font-weight: normal;
     src: local('Brandon Grotesque Light Italic'), url('../fonts/brandon-grotesque-regular-cufonfonts-webfont/brandon-grotesque-light-italic-58a8a4ccb88be.woff') format('woff');
+            }
+
+@font-face {
+    font-family: 'Brandon Grotesque Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Black'), url('../fonts/brandon-grotesque-regular-cufonfonts-webfont/brandon-grotesque-black-58a8a3e824392.woff') format('woff');
             }
 
 /* Video */
