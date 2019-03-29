@@ -271,9 +271,20 @@
 
 /*La Familia Soy Agencia*/
 .familia {
-    background-image: url("../img/textura.png");
+    display: block;
+    position: relative;
+}
+
+familia:after {
+    content: "";
+    background: url("../img/textura.png");
     opacity: 0.5;
-    filter: alpha(opacity=50); 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
 }
 
 .family {
