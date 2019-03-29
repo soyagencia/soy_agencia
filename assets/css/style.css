@@ -462,7 +462,7 @@ familia:after {
 }
 
 .position-redes {
-    height: 50vh;
+    height: 25vh;
 }
 
 /* Footer */
@@ -472,7 +472,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     background-color: #FF26D0;
-    height: 10rem;
+    height: 4rem;
     color: white;
 }
 
@@ -537,37 +537,6 @@ footer {
     }
 } */
 
-/* Clientes */
-@media only screen and (min-device-width:320px) and (max-device-width:1024px) {
-    .clientes-item {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-}
-
-@media only screen and (min-device-width:320px) and (max-device-width:414px) {
-    .clientes {
-        margin-top: 3rem;
-    }
-}
-
-/* Texto "Elige soy Agencia" y Footer*/
-@media only screen and (max-device-width:480px) {
-    #elige-soy-agencia {
-        margin-top: 6rem;
-    }
-}
-
-/* Redes Sociales */
-@media only screen and (max-device-width:360px) {
-    .redes {
-        max-width: 5rem;
-        max-height: 5rem;
-        margin: auto;
-    }
-}
-
 /* Sección botones*/
 @media only screen and (max-device-width:480px) {
     .container-fluid {
@@ -584,6 +553,44 @@ footer {
     }
 }
 
+/* Clientes */
+@media only screen and (min-device-width:320px) and (max-device-width:1024px) {
+    .clientes-item {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:414px) {
+    .clientes {
+        margin-top: 3rem;
+    }
+}
+
+/* Redes Sociales */
+@media only screen and (max-device-width:360px) {
+    .redes {
+        max-width: 5rem;
+        max-height: 5rem;
+        margin: auto;
+    }
+}
+
+/* Footer*/
+@media only screen and (max-device-width:480px) {
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #FF26D0;
+        height: 9rem;
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px; 
+    }
+}
 /* @media only screen and (min-device-width:320px) and (max-device-width:1023px) {
     .photo {
         width: 100vw;
