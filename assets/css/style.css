@@ -249,6 +249,10 @@
 }
 
 /*Video*/
+.back-video {
+    background-image: url("../img/textura.png");
+    padding: 1px;
+}
 .video-cont{
     display: flex;
     margin-top: 20%;
