@@ -275,34 +275,19 @@
 
 /*La Familia Soy Agencia*/
 .familia {
-    display: block;
-    position: relative;
-}
-
-familia:after {
-    content: "";
-    background: url("../img/textura.png");
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-}
-
-.family {
-    /* background-color: white; */
-    /* color: #FF26D0;
-    font-weight: 900;
-    text-align: center; */
-    padding-top: 6%;
+    background-color: #7F1368;
 }
 
 .back-family {
-    background-color: #7F1368;
-    padding: 0 5px;
     color: white !important;
+    padding-top: 0;
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+}
+
+.centro {
+    margin-right: 1%;
 }
 
 .all-gifs {
@@ -311,7 +296,7 @@ familia:after {
 
 .cont-family {
     width: 100vw;
-    padding-top: 0;
+    padding-top: 3%;
     padding-bottom: 10%;
 } 
 
