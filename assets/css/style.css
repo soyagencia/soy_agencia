@@ -22,16 +22,19 @@
 .logo {
     width: 75%;
     margin: 5% 0;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     /* object-fit: scale-down; */
 }
 
 .plataforma {
     font-size: 1.8rem;
-    height: 10vh;
+    /* height: 10vh; */
     text-align: center;
     margin-top: 0;
     font-weight: bolder;
     color: white;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Cards botones*/
@@ -94,6 +97,7 @@
     left: 2%;
     bottom: 3%;
     z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .inputs {
@@ -206,6 +210,7 @@
     border: 0;
     min-width: 21rem;
     min-height: 17rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* background-image: linear-gradient(
         to right top, rgba(127, 19, 104), rgba(255, 38, 208)
     ) */
@@ -305,7 +310,7 @@
     max-height: 10rem;
     margin: 2% auto;
     border-radius: 80%;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 
 /* Clientes */
@@ -321,6 +326,7 @@
     margin: 3%;
     max-width: 30rem;
     min-height: 17rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .empresarios {
     max-width: 100px;
@@ -524,8 +530,9 @@ footer {
     box-shadow: none;
 }
 
-
-
+body a{
+    text-decoration: none !important;
+}
 
 /*fuente */
 @font-face {
