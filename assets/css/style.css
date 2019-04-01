@@ -479,6 +479,53 @@ footer {
     margin-left: 3px;
     margin-right: 3px;
 }
+/*carousel*/
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+.MultiCarousel .MultiCarousel-inner .item { float: left;}
+.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF26D0;
+    border-color: #FF26D0;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #7F1368;
+    border-color: #7F1368;
+}
+
+.btn-primary:active {
+    color: #fff;
+    background-color: #7F1368 !important;
+    border-color: #7F1368 !important;
+    box-shadow: none !important;
+}
+.btn-primary::before {
+    color: #fff; 
+    background-color: #7F1368;
+    border-color: #7F1368;
+}
+.btn-primary::after {
+    color: #fff;
+    background-color: #7F1368;
+    border-color: #7F1368;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #7F1368;
+    border-color: #7F1368;
+    box-shadow: none;
+}
+
+
+
 
 /*fuente */
 @font-face {
