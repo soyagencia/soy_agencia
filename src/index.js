@@ -104,3 +104,18 @@ $(document).ready(function () {
     }
 
 });
+$("#ContactForm").submit(function(e) {
+    
+    var url = $(this).prop('action'); // the script where you handle the form input.
+    $.ajax({
+        type: "POST",
+        url: url,
+        data: $("#ContactForm").serialize(), // serializes the form's elements.
+        dataType: "jsonp",
+        success: function(data)
+        {
+            e.preventDefault();
+            alert('Gracias por contactarnos \n Nos comunicaremos con usted en la brevedad posible');
+        }
+    });
+});
