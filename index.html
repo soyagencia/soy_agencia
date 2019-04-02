@@ -232,20 +232,22 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-              <div class="input-group flex-nowrap inputs">
-                <input type="text" class="form-control font" placeholder="Nombre" aria-label="Username" aria-describedby="addon-wrapping">
-              </div>
-              <div class="input-group flex-nowrap inputs">
-                <input type="text" class="form-control font" placeholder="Teléfono" aria-label="Username" aria-describedby="addon-wrapping">
-              </div>
-              <div class="input-group flex-nowrap inputs">
-                <input type="text" class="form-control font" placeholder="Correo" aria-label="Username" aria-describedby="addon-wrapping">
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary font">Enviar</button>
-            </div>
+            <form method="POST" action="https://bricklane.us19.list-manage.com/subscribe/post?u=9319f13ab2abc48663285b8e9&amp;id=e2f56f00d9" id="ContactForm">
+                <div class="modal-body">
+                  <div class="input-group flex-nowrap inputs">
+                    <input type="text" class="form-control font" name="NAME" placeholder="Nombre" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="input-group flex-nowrap inputs">
+                    <input type="text" class="form-control font" name="MMERGE2" placeholder="Teléfono" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="input-group flex-nowrap inputs">
+                    <input type="text" class="form-control font" name="EMAIL" placeholder="Correo" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" id="enviar" class="btn btn-primary font">Enviar</button>
+                </div>
+            </form>
           </div>
         </div>
       </div>
